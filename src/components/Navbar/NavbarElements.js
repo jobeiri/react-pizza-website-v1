@@ -12,17 +12,17 @@ export const Nav = styled.nav`
 
 export const NavLink = styled(Link)`
   color: #fff;
-  font-size: 2reml
+  font-size: 2rem;
   display: flex;
   align-items: center;
   text-decoration: none;
   cursor: pointer;
 
-@media screen and (max-width: 400px) {
-  position: absolute;
-  top: 10px;
-  left: 25px;
-}
+  @media screen and (max-width: 400px) {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+  }
 `;
 
 export const NavIcon = styled.div`
